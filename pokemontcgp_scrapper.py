@@ -65,7 +65,14 @@ crafting_cost = {
 
 FullArt_Rarities = ["☆", "☆☆", "☆☆☆", "Crown Rare"]
 
-packs = ["Pikachu pack", "Charizard pack", "Mewtwo pack", "Mew pack", "Dialga pack", "Palkia pack"]
+packs = [
+    "Pikachu pack",
+    "Charizard pack",
+    "Mewtwo pack",
+    "Mew pack",
+    "Dialga pack",
+    "Palkia pack",
+]
 
 sets = ["A1", "P-A", "A1a", "A2"]
 
