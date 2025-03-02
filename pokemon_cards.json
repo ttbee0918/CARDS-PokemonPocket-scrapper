@@ -14394,6 +14394,332 @@
         "crafting_cost": "Unknown"
     },
     {
+        "id": "42",
+        "name": "Darkrai ex",
+        "hp": "140",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_042_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Darkness",
+                    "Darkness",
+                    "Colorless"
+                ],
+                "name": "Dark Prism",
+                "damage": "80",
+                "effect": ""
+            }
+        ],
+        "ability": {
+            "name": "Nightmare Aura",
+            "effect": "Whenever you attach a  Energy from your Energy Zone to this Pokémon, do 20 damage to your opponent's Active Pokémon."
+        },
+        "weakness": "Grass",
+        "retreat": "2",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "Yes",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Space-Time Smackdown #110",
+                "rarity": "◊◊◊◊"
+            },
+            {
+                "version": "Space-Time Smackdown #187",
+                "rarity": "☆☆"
+            },
+            {
+                "version": "Space-Time Smackdown #202",
+                "rarity": "☆☆"
+            }
+        ],
+        "artist": "PLANETA Mochizuki",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "43",
+        "name": "Cherrim",
+        "hp": "80",
+        "card_type": "Pokémon - Stage 1 - Evolves from Cherubi",
+        "evolution_type": "Stage 1",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_043_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "name": "Leech Seed",
+                "damage": "60",
+                "effect": "Heal 20 damage from this Pokémon."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fire",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Triumphant Light #8",
+                "rarity": "◊◊"
+            }
+        ],
+        "artist": "MAHOU",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "44",
+        "name": "Raichu",
+        "hp": "90",
+        "card_type": "Pokémon - Stage 1 - Evolves from Pikachu",
+        "evolution_type": "Stage 1",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_044_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Lightning",
+                    "Lightning"
+                ],
+                "name": "Spark",
+                "damage": "40",
+                "effect": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+            }
+        ],
+        "ability": {
+            "name": "Resilience Link",
+            "effect": "If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks."
+        },
+        "weakness": "Fighting",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Triumphant Light #26",
+                "rarity": "◊◊◊"
+            }
+        ],
+        "artist": "Kazumasa Yasukuni",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "45",
+        "name": "Nosepass",
+        "hp": "60",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_045_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "name": "Iron",
+                "damage": "Defense",
+                "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Grass",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Unknown",
+                "rarity": "Unknown"
+            }
+        ],
+        "artist": "Tomokazu Komiya",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "46",
+        "name": "Gible",
+        "hp": "60",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_046_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Fighting"
+                ],
+                "name": "Tackle",
+                "damage": "20",
+                "effect": ""
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Grass",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Triumphant Light #45",
+                "rarity": "◊"
+            }
+        ],
+        "artist": "Uninori",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "47",
+        "name": "Staraptor",
+        "hp": "140",
+        "card_type": "Pokémon - Stage 2 - Evolves from Staravia",
+        "evolution_type": "Stage 2",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_047_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "name": "Wing Attack",
+                "damage": "90",
+                "effect": ""
+            }
+        ],
+        "ability": {
+            "name": "Defensive Whirlwind",
+            "effect": "This Pokémon takes −30 damage from attacks from  Pokémon."
+        },
+        "weakness": "Lightning",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Unknown",
+                "rarity": "Unknown"
+            }
+        ],
+        "artist": "Hasuno",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "48",
+        "name": "Manaphy",
+        "hp": "50",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_048_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Water"
+                ],
+                "name": "Oceanic",
+                "damage": "Gift",
+                "effect": "Choose 2 of your Benched Pokémon. For each of those Pokémon, take a [W] Energy from your Energy Zone and attach it to that Pokémon."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Lightning",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Space-Time Smackdown #50",
+                "rarity": "◊◊"
+            },
+            {
+                "version": "Space-Time Smackdown #162",
+                "rarity": "☆"
+            }
+        ],
+        "artist": "sui",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "49",
+        "name": "Snorlax",
+        "hp": "140",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_049_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless",
+                    "Colorless",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "name": "Collapse",
+                "damage": "100",
+                "effect": "This Pokémon is now Asleep."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fighting",
+        "retreat": "4",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Triumphant Light #63",
+                "rarity": "◊◊"
+            }
+        ],
+        "artist": "okayamatakatoshi",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
         "id": "1",
         "name": "Exeggcute",
         "hp": "50",
@@ -16382,7 +16708,7 @@
         "id": "46",
         "name": "Aerodactyl ex",
         "hp": "140",
-        "card_type": "Pokémon - Stage 1",
+        "card_type": "Pokémon - Stage 1 - Evolves from Old Amber",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_046_EN.webp",
         "attacks": [
@@ -17010,7 +17336,7 @@
                 ],
                 "name": "Fighting Tackle",
                 "damage": "40+",
-                "effect": "If your opponent's Active Pokémon is a Pokémon  more damage."
+                "effect": "If your opponent's Active Pokémon is a Pokémon ex, this attack does 80  more damage."
             }
         ],
         "ability": {
@@ -17771,7 +18097,7 @@
         "id": "78",
         "name": "Aerodactyl ex",
         "hp": "140",
-        "card_type": "Pokémon - Stage 1",
+        "card_type": "Pokémon - Stage 1 - Evolves from Old Amber",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_078_EN.webp",
         "attacks": [
@@ -18036,7 +18362,7 @@
         "id": "84",
         "name": "Aerodactyl ex",
         "hp": "140",
-        "card_type": "Pokémon - Stage 1",
+        "card_type": "Pokémon - Stage 1 - Evolves from Old Amber",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_084_EN.webp",
         "attacks": [
@@ -18909,7 +19235,7 @@
                 ],
                 "name": "all for",
                 "damage": "Family",
-                "effect": "Put 1 random  from your deck onto your Bench."
+                "effect": "Put 1 random Basic Pokémon from your deck onto your Bench."
             }
         ],
         "ability": {
@@ -24987,7 +25313,7 @@
                 ],
                 "name": "all for",
                 "damage": "Family",
-                "effect": "Put 1 random  from your deck onto your Bench."
+                "effect": "Put 1 random Basic Pokémon from your deck onto your Bench."
             }
         ],
         "ability": {
