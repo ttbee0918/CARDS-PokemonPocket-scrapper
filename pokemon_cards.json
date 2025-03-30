@@ -12993,8 +12993,8 @@
         "pack": "Every pack",
         "alternate_versions": [
             {
-                "version": "Unknown",
-                "rarity": "Unknown"
+                "version": "Shining Revelry #111",
+                "rarity": "♛"
             }
         ],
         "artist": "Ryo Ueda",
@@ -13399,7 +13399,7 @@
     {
         "id": "17",
         "name": "Mankey",
-        "hp": "60",
+        "hp": "50",
         "card_type": "Pokémon - Basic",
         "evolution_type": "Basic",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_017_EN.webp",
@@ -14716,6 +14716,422 @@
             }
         ],
         "artist": "okayamatakatoshi",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "50",
+        "name": "Mewtwo ex",
+        "hp": "150",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_050_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Psychic",
+                    "Colorless"
+                ],
+                "name": "Psychic Sphere",
+                "damage": "50",
+                "effect": ""
+            },
+            {
+                "cost": [
+                    "Psychic",
+                    "Psychic",
+                    "Colorless",
+                    "Colorless"
+                ],
+                "name": "Psydrive",
+                "damage": "150",
+                "effect": "Discard 2 [P] Energy from this Pokémon."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Darkness",
+        "retreat": "2",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "Yes",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Genetic Apex #129",
+                "rarity": "◊◊◊◊"
+            },
+            {
+                "version": "Genetic Apex #262",
+                "rarity": "☆☆"
+            },
+            {
+                "version": "Genetic Apex #282",
+                "rarity": "☆☆☆"
+            },
+            {
+                "version": "Genetic Apex #286",
+                "rarity": "♛"
+            }
+        ],
+        "artist": "PLANETA Mochizuki",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "51",
+        "name": "Cyclizar",
+        "hp": "80",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_051_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless"
+                ],
+                "name": "Overacceleration",
+                "damage": "20",
+                "effect": "During your next turn, this Pokémon's Overacceleration attack does +20 damage."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fighting",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Shining Revelry #68",
+                "rarity": "◊◊"
+            }
+        ],
+        "artist": "Shigenori Negishi",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "52",
+        "name": "Sprigatito",
+        "hp": "60",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_052_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Grass"
+                ],
+                "name": "Cry for",
+                "damage": "Help",
+                "effect": "Put 1 random [G] Pokémon from your deck into your hand."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fire",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Shining Revelry #5",
+                "rarity": "◊"
+            }
+        ],
+        "artist": "MINAMINAMI Take",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "53",
+        "name": "Floatzel",
+        "hp": "100",
+        "card_type": "Pokémon - Stage 1 - Evolves from Buizel",
+        "evolution_type": "Stage 1",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_053_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Water"
+                ],
+                "name": "Attack the ound",
+                "damage": "10+",
+                "effect": "If your opponent's Active Pokémon has damage on it, this attack does 60 more damage."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Lightning",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Unknown",
+                "rarity": "Unknown"
+            }
+        ],
+        "artist": "Shin Nagasawa",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "54",
+        "name": "Pawmot",
+        "hp": "140",
+        "card_type": "Pokémon - Stage 2 - Evolves from Pawmo",
+        "evolution_type": "Stage 2",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_054_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Lightning",
+                    "Lightning"
+                ],
+                "name": "Electric Punch",
+                "damage": "70",
+                "effect": ""
+            }
+        ],
+        "ability": {
+            "name": "Counterattack",
+            "effect": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+        },
+        "weakness": "Fighting",
+        "retreat": "0",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Shining Revelry #28",
+                "rarity": "◊◊◊"
+            }
+        ],
+        "artist": "REND",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "55",
+        "name": "Machamp",
+        "hp": "150",
+        "card_type": "Pokémon - Stage 2 - Evolves from Machoke",
+        "evolution_type": "Stage 2",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_055_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "name": "Power Press",
+                "damage": "70+",
+                "effect": "If this Pokémon has at least 2 extra [F] Energy attached, this attack does 50 more damage."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Psychic",
+        "retreat": "2",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Shining Revelry #39",
+                "rarity": "◊◊◊"
+            }
+        ],
+        "artist": "Masakazu Fukuda",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "56",
+        "name": "Ekans",
+        "hp": "60",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_056_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Darkness"
+                ],
+                "name": "Poison",
+                "damage": "Sting",
+                "effect": "Your opponent's Active Pokémon is now Poisoned."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fighting",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Unknown",
+                "rarity": "Unknown"
+            }
+        ],
+        "artist": "Krgc",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "57",
+        "name": "Bidoof",
+        "hp": "70",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_057_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "name": "Headbutt",
+                "damage": "30",
+                "effect": ""
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fighting",
+        "retreat": "2",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Shining Revelry #64",
+                "rarity": "◊"
+            }
+        ],
+        "artist": "Kouki Saitou",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "58",
+        "name": "Pachirisu",
+        "hp": "70",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_058_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Lightning"
+                ],
+                "name": "Plasma",
+                "damage": "10",
+                "effect": "Take a [L] Energy from your Energy Zone and attach it to 1 of your Benched [L] Pokémon."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fighting",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Shining Revelry #25",
+                "rarity": "◊◊"
+            },
+            {
+                "version": "Shining Revelry #103",
+                "rarity": "☆"
+            }
+        ],
+        "artist": "OOYAMA",
+        "probability": {},
+        "crafting_cost": "Unknown"
+    },
+    {
+        "id": "59",
+        "name": "Riolu",
+        "hp": "70",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-A/P-A_059_EN.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Fighting",
+                    "Fighting"
+                ],
+                "name": "Punch",
+                "damage": "40",
+                "effect": ""
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Psychic",
+        "retreat": "1",
+        "rarity": "",
+        "fullart": "No",
+        "ex": "No",
+        "set_details": "Promo-A",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Shining Revelry #42",
+                "rarity": "◊"
+            },
+            {
+                "version": "Shining Revelry #104",
+                "rarity": "☆"
+            }
+        ],
+        "artist": "Akira Komayama",
         "probability": {},
         "crafting_cost": "Unknown"
     },
