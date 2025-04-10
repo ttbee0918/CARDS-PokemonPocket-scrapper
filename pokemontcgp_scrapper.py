@@ -111,6 +111,7 @@ def extract_card_info(soup):
     card_info["id"] = extract_id(soup)
     card_info["name"] = extract_name(soup)
     card_info["hp"] = extract_hp(soup)
+    card_info["type"] = extract_type(soup)
     card_info["card_type"], card_info["evolution_type"] = (
         extract_card_and_evolution_type(soup)
     )
@@ -137,6 +138,28 @@ def extract_name(soup):
     title = soup.find("p", class_="card-text-title")
     return title.find("a").text.strip()
 
+def extract_type(soup):
+    title_element = soup.find("p", class_="card-text-title")
+    if title_element and title_element.text:
+        # Dividir el texto por " - "
+        parts = title_element.text.split(" - ")
+
+        # Obtener la lista de nombres de tipo válidos (ej: ["Grass", "Fire", ...])
+        known_type_names = type_mapping.values()
+
+        # Buscar en las partes si alguna coincide con un nombre de tipo conocido
+        for part in parts:
+            cleaned_part = part.strip() # Limpiar espacios
+            if cleaned_part in known_type_names:
+                return cleaned_part # Devolver el nombre completo encontrado
+
+        # Si ninguna parte coincide con un tipo conocido, devolver "Unknown Type"
+        # Puedes descomentar la siguiente línea para depurar qué partes se encontraron
+        # print(f"DEBUG: No se encontró un tipo conocido en las partes: {parts}")
+        return "Unknown Type"
+
+    # Devolver un valor por defecto si no se encontró el elemento o texto
+    return "Unknown Type"
 
 def extract_hp(soup):
     title = soup.find("p", class_="card-text-title")
@@ -357,7 +380,8 @@ init_time = time.time()
 start_id = 1
 end_id = 286
 filename = "pokemon_cards.json"
-convert_cards_to_json(start_id, end_id, filename)
+iterate_all_sets()
+#convert_cards_to_json(start_id, end_id, filename)
 end_time = time.time()
 print(
     f"Finished downloading cards to {filename}, total time: {
