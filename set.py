@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import dateutil
 import requests
 import card
+import tqdm
 
 
 class Set:
@@ -126,7 +127,10 @@ class Set:
 
         cardsElement = self.soup.find("div", class_="card-search-grid")
 
-        for a in cardsElement.find_all("a", href=True):
+        # for a in cardsElement.find_all("a", href=True):
+        for a in tqdm.tqdm(
+            cardsElement.find_all("a", href=True), desc=f"{self.name} cards"
+        ):
             self.cards.append(card.Card(url=f"{origin}{a['href']}"))
 
     def getCardData(self) -> list:
