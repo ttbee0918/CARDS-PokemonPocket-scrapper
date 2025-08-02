@@ -1,6 +1,8 @@
 from mappings import Type, Rarity, AttackCost
 from bs4 import BeautifulSoup
 import requests
+import random
+import time
 import re
 
 
@@ -26,6 +28,9 @@ class Card:
         self.soup = BeautifulSoup(response.content, "html.parser")
 
         self.setAll()
+
+        # Random sleep to not overload requests
+        time.sleep(random.random())
 
     def setAll(self) -> None:
         """
