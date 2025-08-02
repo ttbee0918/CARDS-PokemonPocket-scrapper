@@ -1,3 +1,4 @@
-requests
-bs4
 black
+bs4
+python-dateutil
+requests
