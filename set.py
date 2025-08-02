@@ -76,10 +76,22 @@ class Set:
                 part.strip()
                 for part in infoLine.get_text(strip=True, separator="•").split("•")
             ]
-            date = dateutil.parser.parse(parts[0].strip())
 
-        if not date:
+            for part in parts:
+                try:
+                    date = dateutil.parser.parse(part.strip(), fuzzy=False)
+                    break
+                except (ValueError, TypeError):
+                    continue
+
+            if date is None:
+                # This should only be for Promo-A
+                date = dateutil.parser.parse("1924-08-30")
+                assert self.name == "Promo-A"
+
+        else:
             raise ValueError(f"Release date not found on page: {self.url}")
+
         self.releaseDate = date
 
     def setCardCount(self) -> None:
@@ -101,10 +113,12 @@ class Set:
                 part.strip()
                 for part in infoLine.get_text(strip=True, separator="•").split("•")
             ]
-            # Remove the "cards" part and convert to integer
-            if "cards" in parts[1].lower():
-                parts[1] = parts[1].lower().replace("cards", "").strip()
-            cardCount = int(parts[1].strip())
+
+            for part in parts:
+                if "cards" in part.lower():
+                    # Remove the "cards" part and convert to integer
+                    cardCount = int(part.lower().replace("cards", "").strip())
+                    break
 
         if not cardCount:
             raise ValueError(f"Card count not found on page: {self.url}")
