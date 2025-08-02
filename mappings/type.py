@@ -10,6 +10,7 @@ class Type:
         "M": "Metal",
         "Y": "Fairy",
         "C": "Colorless",
+        "0": "Colorless",
     }
 
     @staticmethod
