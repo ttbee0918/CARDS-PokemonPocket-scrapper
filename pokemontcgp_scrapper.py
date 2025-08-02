@@ -18,4 +18,4 @@ print(
 
 
 with open(filename, "w", encoding="utf-8") as file:
-    json.dump(pocket.getCardData(), file, ensure_ascii=False, indent=4)
+    json.dump(pocket.getCardDataSorted(), file, ensure_ascii=False, indent=4)

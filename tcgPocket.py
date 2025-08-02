@@ -66,3 +66,20 @@ class TGCPocket:
             cardData.extend(setInstance.getCardData())
 
         return cardData
+
+    def getCardDataSorted(self) -> list[dict]:
+        """
+        Get card data from all sets, sorted by id.
+
+        TODO: Sort by the date the set was released
+            and then by the card number in the set,
+            because the id is repeated across sets.
+
+        Args:
+            - None
+
+        Returns:
+            - list[dict]: List of dictionaries containing card data
+        """
+        cardData = self.getCardData()
+        return sorted(cardData, key=lambda x: x["id"])
