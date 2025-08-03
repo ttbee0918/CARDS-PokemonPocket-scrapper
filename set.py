@@ -87,7 +87,7 @@ class Set:
 
             if date is None:
                 # This should only be for Promo-A
-                date = dateutil.parser.parse("1924-08-30")
+                date = dateutil.parser.parse("2024-08-29")
                 assert self.name == "Promo-A"
 
         else:

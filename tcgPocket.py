@@ -82,4 +82,13 @@ class TGCPocket:
             - list[dict]: List of dictionaries containing card data
         """
         cardData = self.getCardData()
-        return sorted(cardData, key=lambda x: x["id"])
+
+        sortedCardData = sorted(
+            cardData,
+            key=lambda card: (
+                {s.name: s for s in self.sets}[card["set_details"]].releaseDate,
+                int(card["id"]),
+            ),
+        )
+
+        return sortedCardData
