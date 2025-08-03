@@ -40,6 +40,7 @@ class Set:
         self.setReleaseDate()
         self.setCardCount()
         self.setCardInfo()
+        self.setPacks()
 
     def setName(self) -> None:
         """
@@ -147,6 +148,20 @@ class Set:
             cardsElement.find_all("a", href=True), desc=f"{self.name} cards"
         ):
             self.cards.append(card.Card(url=f"{origin}{a['href']}"))
+
+    def setPacks(self) -> None:
+        """
+        Set the packs available for the set.
+
+        Args:
+            - None
+
+        Returns:
+            - None
+        """
+        self.packs: list[str] = list(
+            {c.pack for c in self.cards if c.pack != "Every pack"}
+        )
 
     def checkAssumptions(self) -> None:
         """
