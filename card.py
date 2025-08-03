@@ -378,6 +378,7 @@ class Card:
             setDetailsElement = setInfo.find("span", class_="text-lg")
             if setDetailsElement:
                 setDetails = setDetailsElement.text.strip()
+                setDetails = " ".join(setDetails.split())
 
         self.setDetails = setDetails
 

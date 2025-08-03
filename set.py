@@ -24,6 +24,7 @@ class Set:
         self.soup = BeautifulSoup(response.content, "html.parser")
 
         self.setAll()
+        self.checkAssumptions()
 
     def setAll(self) -> None:
         """
@@ -146,6 +147,48 @@ class Set:
             cardsElement.find_all("a", href=True), desc=f"{self.name} cards"
         ):
             self.cards.append(card.Card(url=f"{origin}{a['href']}"))
+
+    def checkAssumptions(self) -> None:
+        """
+        Check assumptions about the cards.
+
+        Args:
+            - None
+
+        Returns:
+            - None
+        """
+        self.checkCardCount()
+        self.checkCorrectSet()
+
+    def checkCardCount(self) -> None:
+        """
+        Check if the number of cards matches the expected card count.
+
+        Args:
+            - None
+
+        Returns:
+            - None
+        """
+        assert self.cardCount == len(
+            self.cards
+        ), f"There is an inconsistancy with the number of cards in {self.name}"
+
+    def checkCorrectSet(self) -> None:
+        """
+        Check that all the cards have the same name as the set.
+
+        Args:
+            - None
+
+        Returns:
+            - None
+        """
+        for card in self.cards:
+            assert (
+                self.name == card.setDetails
+            ), f"Card set {card.setDetails} is not set name {self.name}"
 
     def getCardData(self) -> list:
         """
