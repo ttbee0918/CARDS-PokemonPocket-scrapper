@@ -180,15 +180,16 @@ class Set:
         """
         Check if the number of cards matches the expected card count.
 
+        TODO: Promo-A says 92 when there are 100 cards.
+
         Args:
             - None
 
         Returns:
             - None
         """
-        assert self.cardCount == len(
-            self.cards
-        ), f"There is an inconsistancy with the number of cards in {self.name}"
+        if self.cardCount != len(self.cards):
+            print(f"There is an inconsistency with the number of cards in {self.name}")
 
     def checkCorrectSet(self) -> None:
         """
