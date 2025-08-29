@@ -84,6 +84,7 @@ sets = [
     "A3a",  # Extradimensional Crisis
     "A3b",  # Eevee Grove
     "A4",  # Wisdom of Sea and Sky
+    "A4a",  # Secluded Springs
     "P-A",  # Promo-A
 ]
 
@@ -391,8 +392,10 @@ init_time = time.time()
 start_id = 1
 end_id = 286
 filename = "pokemon_cards.json"
+filename = r"C:\Users\User\Downloads\json\pokemon_cards.json"
 iterate_all_sets()
 #convert_cards_to_json(start_id, end_id, filename)
+convert_cards_to_json(start_id, end_id, filename)
 end_time = time.time()
 print(
     f"Finished downloading cards to {filename}, total time: {end_time - init_time} segundos."
