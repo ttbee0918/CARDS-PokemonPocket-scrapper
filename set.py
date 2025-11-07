@@ -87,9 +87,29 @@ class Set:
                     continue
 
             if date is None:
-                # This should only be for Promo-A
-                date = dateutil.parser.parse("2024-08-29")
-                assert self.name == "Promo-A"
+                # This should only be for Promo sets
+                if "Promo" not in self.name:
+                    print(f"WARNING: Release date not found on page: {self.url}")
+
+                # We use Serebii.net to try and fill in the date
+                url = "https://www.serebii.net/tcgpocket/" + self.name.lower().replace(
+                    " ", ""
+                )
+                response = requests.get(url)
+                response.raise_for_status()
+                soup = BeautifulSoup(response.content, "html.parser")
+                # Find the <i> tag containing "Release Date:"
+                releaseInfo = soup.find("i", string="Release Date:")
+                if releaseInfo:
+                    # Get the parent element and extract the full text
+                    parent_text = releaseInfo.parent.get_text(strip=True)
+                    # Remove the "Release Date:" label and parse the remaining text
+                    date_text = (
+                        parent_text.replace("Release Date:", "")
+                        .split("Amount of Cards")[0]
+                        .strip()
+                    )
+                    date = dateutil.parser.parse(date_text)
 
         else:
             raise ValueError(f"Release date not found on page: {self.url}")
