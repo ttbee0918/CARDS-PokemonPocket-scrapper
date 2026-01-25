@@ -121612,7 +121612,7 @@
                 ],
                 "name": "Adamantine Rolling",
                 "damage": "120",
-                "effect": "During your opponent's next turn, this Pokémon takes  damage from attacks and has no Weakness."
+                "effect": "During your opponent's next turn, this Pokémon takes −20 damage from attacks and has no Weakness."
             }
         ],
         "ability": {
@@ -122892,7 +122892,7 @@
                 ],
                 "name": "Adamantine Rolling",
                 "damage": "120",
-                "effect": "During your opponent's next turn, this Pokémon takes  damage from attacks and has no Weakness."
+                "effect": "During your opponent's next turn, this Pokémon takes −20 damage from attacks and has no Weakness."
             }
         ],
         "ability": {
@@ -123175,7 +123175,7 @@
                 ],
                 "name": "Adamantine Rolling",
                 "damage": "120",
-                "effect": "During your opponent's next turn, this Pokémon takes  damage from attacks and has no Weakness."
+                "effect": "During your opponent's next turn, this Pokémon takes −20 damage from attacks and has no Weakness."
             }
         ],
         "ability": {
