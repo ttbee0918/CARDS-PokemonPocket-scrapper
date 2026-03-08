@@ -106074,6 +106074,53 @@
         "crafting_cost": 35
     },
     {
+        "id": 33,
+        "name": "Quaxly",
+        "hp": 60,
+        "type": "Water",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_033_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Water"
+                ],
+                "name": "Splashing Dodge",
+                "damage": "10",
+                "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Lightning",
+        "retreat": 1,
+        "rarity": "☆",
+        "fullart": true,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Premium Missions",
+        "alternate_versions": [
+            {
+                "version": "Paldean Wonders #22",
+                "rarity": "◊"
+            },
+            {
+                "version": "Promo-B #33",
+                "rarity": "☆"
+            }
+        ],
+        "artist": "buchi",
+        "probabilities": {
+            "1-3 card": 0,
+            "4 card": 0.02572,
+            "5 card": 0.10288
+        },
+        "crafting_cost": 400
+    },
+    {
         "id": 34,
         "name": "Combusken",
         "hp": 80,
@@ -106118,6 +106165,49 @@
         "crafting_cost": 70
     },
     {
+        "id": 34,
+        "name": "Smoliv",
+        "hp": 60,
+        "type": "Grass",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_034_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Grass"
+                ],
+                "name": "Unknown",
+                "damage": "0",
+                "effect": "Heal 20 damage from 1 of your Pokémon."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fire",
+        "retreat": 1,
+        "rarity": "◊",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Promo pack",
+        "alternate_versions": [
+            {
+                "version": "Promo-B #34",
+                "rarity": "◊"
+            }
+        ],
+        "artist": "Shibuzoh.",
+        "probabilities": {
+            "1-3 card": 1,
+            "4 card": 0,
+            "5 card": 0
+        },
+        "crafting_cost": 35
+    },
+    {
         "id": 35,
         "name": "Blaziken",
         "hp": 140,
@@ -106160,6 +106250,53 @@
             "5 card": 0.2
         },
         "crafting_cost": 150
+    },
+    {
+        "id": 35,
+        "name": "Charcadet",
+        "hp": 60,
+        "type": "Fire",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_035_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless"
+                ],
+                "name": "Punch",
+                "damage": "10",
+                "effect": ""
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Water",
+        "retreat": 1,
+        "rarity": "☆",
+        "fullart": true,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Promo pack",
+        "alternate_versions": [
+            {
+                "version": "Paldean Wonders #19",
+                "rarity": "◊"
+            },
+            {
+                "version": "Promo-B #35",
+                "rarity": "☆"
+            }
+        ],
+        "artist": "Oswaldo KATO",
+        "probabilities": {
+            "1-3 card": 0,
+            "4 card": 0.02572,
+            "5 card": 0.10288
+        },
+        "crafting_cost": 400
     },
     {
         "id": 36,
@@ -106214,6 +106351,53 @@
         "crafting_cost": 500
     },
     {
+        "id": 36,
+        "name": "Tatsugiri",
+        "hp": 70,
+        "type": "Water",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_036_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Water"
+                ],
+                "name": "Rally Back",
+                "damage": "20+",
+                "effect": "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 60 more damage."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Lightning",
+        "retreat": 1,
+        "rarity": "◊",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Promo pack",
+        "alternate_versions": [
+            {
+                "version": "Paldean Wonders #33",
+                "rarity": "◊◊"
+            },
+            {
+                "version": "Promo-B #36",
+                "rarity": "◊"
+            }
+        ],
+        "artist": "Shibuzoh.",
+        "probabilities": {
+            "1-3 card": 1,
+            "4 card": 0,
+            "5 card": 0
+        },
+        "crafting_cost": 35
+    },
+    {
         "id": 37,
         "name": "Pansear",
         "hp": 60,
@@ -106249,6 +106433,49 @@
             }
         ],
         "artist": "Jerky",
+        "probabilities": {
+            "1-3 card": 1,
+            "4 card": 0,
+            "5 card": 0
+        },
+        "crafting_cost": 35
+    },
+    {
+        "id": 37,
+        "name": "Frigibax",
+        "hp": 60,
+        "type": "Water",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_037_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Water"
+                ],
+                "name": "Unknown",
+                "damage": "0",
+                "effect": "During your opponent's next turn, this Pokémon takes −20 damage from attacks."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Metal",
+        "retreat": 1,
+        "rarity": "◊",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Promo pack",
+        "alternate_versions": [
+            {
+                "version": "Promo-B #37",
+                "rarity": "◊"
+            }
+        ],
+        "artist": "Akira Komayama",
         "probabilities": {
             "1-3 card": 1,
             "4 card": 0,
@@ -106301,6 +106528,55 @@
         "crafting_cost": 35
     },
     {
+        "id": 38,
+        "name": "Tinkaton",
+        "hp": 150,
+        "type": "Metal",
+        "card_type": "Pokémon - Stage 2 - Evolves from Tinkatuff",
+        "evolution_type": "Stage 2",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_038_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Metal",
+                    "Metal",
+                    "Colorless"
+                ],
+                "name": "Gigaton Hammer",
+                "damage": "140",
+                "effect": "During your next turn, this Pokémon can't use Gigaton Hammer."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fire",
+        "retreat": 2,
+        "rarity": "◊◊◊",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Promo pack",
+        "alternate_versions": [
+            {
+                "version": "Paldean Wonders #74",
+                "rarity": "◊◊◊"
+            },
+            {
+                "version": "Promo-B #38",
+                "rarity": "◊◊◊"
+            }
+        ],
+        "artist": "DOM",
+        "probabilities": {
+            "1-3 card": 0,
+            "4 card": 0.05,
+            "5 card": 0.2
+        },
+        "crafting_cost": 150
+    },
+    {
         "id": 39,
         "name": "Darumaka",
         "hp": 70,
@@ -106343,6 +106619,57 @@
             "5 card": 0
         },
         "crafting_cost": 35
+    },
+    {
+        "id": 39,
+        "name": "Pawmi",
+        "hp": 60,
+        "type": "Lightning",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_039_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Lightning"
+                ],
+                "name": "Random",
+                "damage": "Spark",
+                "effect": "This attack does 10 damage to 1 of your opponent's Pokémon."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fighting",
+        "retreat": 1,
+        "rarity": "◊◊◊",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Wonder Pick",
+        "alternate_versions": [
+            {
+                "version": "Paldean Wonders #38",
+                "rarity": "◊"
+            },
+            {
+                "version": "Paldean Wonders #119",
+                "rarity": "☆"
+            },
+            {
+                "version": "Promo-B #39",
+                "rarity": "◊◊◊"
+            }
+        ],
+        "artist": "sowsow",
+        "probabilities": {
+            "1-3 card": 0,
+            "4 card": 0.05,
+            "5 card": 0.2
+        },
+        "crafting_cost": 150
     },
     {
         "id": 40,
@@ -106389,6 +106716,55 @@
             "5 card": 0.6
         },
         "crafting_cost": 70
+    },
+    {
+        "id": 40,
+        "name": "Paldean Clodsire",
+        "hp": 120,
+        "type": "Darkness",
+        "card_type": "Pokémon - Stage 1 - Evolves from Paldean Wooper",
+        "evolution_type": "Stage 1",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_040_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Darkness",
+                    "Darkness",
+                    "Colorless"
+                ],
+                "name": "Muddy Hammer",
+                "damage": "70",
+                "effect": "Discard the top card of your opponent's deck."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fighting",
+        "retreat": 3,
+        "rarity": "◊◊◊",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Wonder Pick",
+        "alternate_versions": [
+            {
+                "version": "Paldean Wonders #65",
+                "rarity": "◊◊"
+            },
+            {
+                "version": "Promo-B #40",
+                "rarity": "◊◊◊"
+            }
+        ],
+        "artist": "Kouki Saitou",
+        "probabilities": {
+            "1-3 card": 0,
+            "4 card": 0.05,
+            "5 card": 0.2
+        },
+        "crafting_cost": 150
     },
     {
         "id": 41,
@@ -136571,6 +136947,10 @@
             {
                 "version": "Paldean Wonders #19",
                 "rarity": "◊"
+            },
+            {
+                "version": "Promo-B #35",
+                "rarity": "☆"
             }
         ],
         "artist": "Souichirou Gunjima",
@@ -136711,6 +137091,10 @@
             {
                 "version": "Paldean Wonders #22",
                 "rarity": "◊"
+            },
+            {
+                "version": "Promo-B #33",
+                "rarity": "☆"
             }
         ],
         "artist": "Naoki Saito",
@@ -137200,6 +137584,10 @@
             {
                 "version": "Paldean Wonders #33",
                 "rarity": "◊◊"
+            },
+            {
+                "version": "Promo-B #36",
+                "rarity": "◊"
             }
         ],
         "artist": "OKACHEKE",
@@ -137444,6 +137832,10 @@
             {
                 "version": "Paldean Wonders #119",
                 "rarity": "☆"
+            },
+            {
+                "version": "Promo-B #39",
+                "rarity": "◊◊◊"
             }
         ],
         "artist": "kantaro",
@@ -138658,6 +139050,10 @@
             {
                 "version": "Paldean Wonders #65",
                 "rarity": "◊◊"
+            },
+            {
+                "version": "Promo-B #40",
+                "rarity": "◊◊◊"
             }
         ],
         "artist": "Shin Nagasawa",
@@ -139061,6 +139457,10 @@
         "alternate_versions": [
             {
                 "version": "Paldean Wonders #74",
+                "rarity": "◊◊◊"
+            },
+            {
+                "version": "Promo-B #38",
                 "rarity": "◊◊◊"
             }
         ],
@@ -141144,6 +141544,10 @@
             {
                 "version": "Paldean Wonders #119",
                 "rarity": "☆"
+            },
+            {
+                "version": "Promo-B #39",
+                "rarity": "◊◊◊"
             }
         ],
         "artist": "whomor Inc.",
