@@ -110468,6 +110468,54 @@
         "crafting_cost": 70
     },
     {
+        "id": 87,
+        "name": "Mega Sceptile ex",
+        "hp": 210,
+        "type": "Grass",
+        "card_type": "Pokémon - Stage 2 - Evolves from Grovyle",
+        "evolution_type": "Stage 2",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_087_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Grass",
+                    "Grass"
+                ],
+                "name": "Terminating Tail",
+                "damage": "130",
+                "effect": "Discard a [G] Energy from this Pokémon. Your opponent's Active Pokémon is now Poisoned."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fire",
+        "retreat": 1,
+        "rarity": "",
+        "fullart": false,
+        "ex": true,
+        "set_details": "Promo-B",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Pulsing Aura #8",
+                "rarity": "◊◊◊◊"
+            },
+            {
+                "version": "Pulsing Aura #180",
+                "rarity": "☆☆"
+            },
+            {
+                "version": "Pulsing Aura #194",
+                "rarity": "☆☆"
+            }
+        ],
+        "artist": "PLANETA CG Works",
+        "probabilities": {},
+        "crafting_cost": "Unknown"
+    },
+    {
         "id": 88,
         "name": "Luxray",
         "hp": 130,
@@ -110516,6 +110564,46 @@
         "crafting_cost": 150
     },
     {
+        "id": 88,
+        "name": "Team Rocket's Scyther",
+        "hp": 60,
+        "type": "Grass",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_088_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Grass",
+                    "Colorless"
+                ],
+                "name": "Second Strike",
+                "damage": "20+",
+                "effect": "If your opponent's Active Pokémon has damage on it, this attack does 70 more damage."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Fire",
+        "retreat": 1,
+        "rarity": "",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Unknown",
+                "rarity": "Unknown"
+            }
+        ],
+        "artist": "Anesaki Dynamic",
+        "probabilities": {},
+        "crafting_cost": "Unknown"
+    },
+    {
         "id": 89,
         "name": "Pachirisu",
         "hp": 70,
@@ -110560,6 +110648,46 @@
         "crafting_cost": 35
     },
     {
+        "id": 89,
+        "name": "Team Rocket's Lapras",
+        "hp": 90,
+        "type": "Water",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_089_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Water",
+                    "Colorless"
+                ],
+                "name": "Ruthless Whirlpool",
+                "damage": "40+",
+                "effect": "If this Pokémon has more Energy attached than your opponent's Active Pokémon, this attack does 40 more damage."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Lightning",
+        "retreat": 1,
+        "rarity": "",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Team Rocket's Ambition #13",
+                "rarity": "◊◊"
+            }
+        ],
+        "artist": "matazo",
+        "probabilities": {},
+        "crafting_cost": "Unknown"
+    },
+    {
         "id": 90,
         "name": "Blitzle",
         "hp": 70,
@@ -110601,6 +110729,45 @@
             "5 card": 0
         },
         "crafting_cost": 35
+    },
+    {
+        "id": 90,
+        "name": "Wingull",
+        "hp": 60,
+        "type": "Water",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_090_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless"
+                ],
+                "name": "Flap",
+                "damage": "10",
+                "effect": ""
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Lightning",
+        "retreat": 1,
+        "rarity": "",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Team Rocket's Ambition #15",
+                "rarity": "◊"
+            }
+        ],
+        "artist": "Midori Harada",
+        "probabilities": {},
+        "crafting_cost": "Unknown"
     },
     {
         "id": 91,
@@ -110648,6 +110815,46 @@
         "crafting_cost": 70
     },
     {
+        "id": 91,
+        "name": "Team Rocket's Wobbuffet",
+        "hp": 80,
+        "type": "Psychic",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_091_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless",
+                    "Colorless"
+                ],
+                "name": "Rocket Frenzy",
+                "damage": "30x",
+                "effect": "Reveal the top 6 cards of your deck. This attack does 30 damage for each Pokémon you find there that has “Team Rocket” in its name. Shuffle the revealed cards back into your deck."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Darkness",
+        "retreat": 2,
+        "rarity": "",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Unknown",
+                "rarity": "Unknown"
+            }
+        ],
+        "artist": "cochi8i",
+        "probabilities": {},
+        "crafting_cost": "Unknown"
+    },
+    {
         "id": 92,
         "name": "Joltik",
         "hp": 30,
@@ -110689,6 +110896,46 @@
             "5 card": 0
         },
         "crafting_cost": 35
+    },
+    {
+        "id": 92,
+        "name": "Marowak",
+        "hp": 110,
+        "type": "Fighting",
+        "card_type": "Pokémon - Stage 1 - Evolves from Cubone",
+        "evolution_type": "Stage 1",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_092_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Fighting",
+                    "Colorless"
+                ],
+                "name": "Punish",
+                "damage": "50+",
+                "effect": "If your opponent's Active Pokémon has “Team Rocket” in its name, this attack does 70 more damage."
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Grass",
+        "retreat": 2,
+        "rarity": "",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Team Rocket's Ambition #36",
+                "rarity": "◊◊"
+            }
+        ],
+        "artist": "kawayoo",
+        "probabilities": {},
+        "crafting_cost": "Unknown"
     },
     {
         "id": 93,
@@ -110734,6 +110981,45 @@
         "crafting_cost": 70
     },
     {
+        "id": 93,
+        "name": "Fennekin",
+        "hp": 60,
+        "type": "Fire",
+        "card_type": "Pokémon - Basic",
+        "evolution_type": "Basic",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_093_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Colorless"
+                ],
+                "name": "Scratch",
+                "damage": "10",
+                "effect": ""
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Water",
+        "retreat": 1,
+        "rarity": "",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Team Rocket's Ambition #10",
+                "rarity": "◊"
+            }
+        ],
+        "artist": "Kanako Eo",
+        "probabilities": {},
+        "crafting_cost": "Unknown"
+    },
+    {
         "id": 94,
         "name": "Dedenne",
         "hp": 70,
@@ -110775,6 +111061,46 @@
             "5 card": 0
         },
         "crafting_cost": 35
+    },
+    {
+        "id": 94,
+        "name": "Meowstic",
+        "hp": 90,
+        "type": "Psychic",
+        "card_type": "Pokémon - Stage 1 - Evolves from Espurr",
+        "evolution_type": "Stage 1",
+        "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/P-B/P-B_094_EN_SM.webp",
+        "attacks": [
+            {
+                "cost": [
+                    "Psychic",
+                    "Psychic"
+                ],
+                "name": "Super Psy Bolt",
+                "damage": "70",
+                "effect": ""
+            }
+        ],
+        "ability": {
+            "name": "No ability",
+            "effect": "N/A"
+        },
+        "weakness": "Darkness",
+        "retreat": 1,
+        "rarity": "",
+        "fullart": false,
+        "ex": false,
+        "set_details": "Promo-B",
+        "pack": "Every pack",
+        "alternate_versions": [
+            {
+                "version": "Team Rocket's Ambition #32",
+                "rarity": "◊◊"
+            }
+        ],
+        "artist": "Kagemaru Himeno",
+        "probabilities": {},
+        "crafting_cost": "Unknown"
     },
     {
         "id": 95,
@@ -174539,7 +174865,7 @@
         "name": "Galarian Linoone",
         "hp": 80,
         "type": "Darkness",
-        "card_type": "Pokémon - Stage 1 - Evolves from GalarianZigzagoon",
+        "card_type": "Pokémon - Stage 1 - Evolves from Galarian Zigzagoon",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4/B4_096_EN_SM.webp",
         "attacks": [
@@ -174582,7 +174908,7 @@
         "name": "Galarian Obstagoon",
         "hp": 140,
         "type": "Darkness",
-        "card_type": "Pokémon - Stage 2 - Evolves from GalarianLinoone",
+        "card_type": "Pokémon - Stage 2 - Evolves from Galarian Linoone",
         "evolution_type": "Stage 2",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4/B4_097_EN_SM.webp",
         "attacks": [
@@ -181400,7 +181726,7 @@
         "name": "Team Rocket's Houndoom",
         "hp": 90,
         "type": "Fire",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Houndour",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Houndour",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_009_EN_SM.webp",
         "attacks": [
@@ -181902,7 +182228,7 @@
         "name": "Team Rocket's Electrode",
         "hp": 70,
         "type": "Lightning",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Voltorb",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Voltorb",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_020_EN_SM.webp",
         "attacks": [
@@ -182179,7 +182505,7 @@
         "name": "Team Rocket's Slowking ex",
         "hp": 130,
         "type": "Psychic",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Slowpoke",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Slowpoke",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_026_EN_SM.webp",
         "attacks": [
@@ -182275,7 +182601,7 @@
         "name": "Team Rocket's Hypno",
         "hp": 90,
         "type": "Psychic",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Drowzee",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Drowzee",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_028_EN_SM.webp",
         "attacks": [
@@ -182762,7 +183088,7 @@
         "name": "Team Rocket's Arbok",
         "hp": 100,
         "type": "Darkness",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Ekans",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Ekans",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_039_EN_SM.webp",
         "attacks": [
@@ -182850,7 +183176,7 @@
         "name": "Team Rocket's Muk",
         "hp": 120,
         "type": "Darkness",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Grimer",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Grimer",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_041_EN_SM.webp",
         "attacks": [
@@ -182938,7 +183264,7 @@
         "name": "Team Rocket's Weezing ex",
         "hp": 140,
         "type": "Darkness",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Koffing",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Koffing",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_043_EN_SM.webp",
         "attacks": [
@@ -183209,7 +183535,7 @@
         "name": "Team Rocket's Tinkatuff",
         "hp": 80,
         "type": "Metal",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Tinkatink",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Tinkatink",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_049_EN_SM.webp",
         "attacks": [
@@ -183253,7 +183579,7 @@
         "name": "Team Rocket's Tinkaton",
         "hp": 140,
         "type": "Metal",
-        "card_type": "Pokémon - Stage 2 - Evolves from Team Rocket’s Tinkatuff",
+        "card_type": "Pokémon - Stage 2 - Evolves from Team Rocket's Tinkatuff",
         "evolution_type": "Stage 2",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_050_EN_SM.webp",
         "attacks": [
@@ -183661,7 +183987,7 @@
         "name": "Team Rocket's Raticate ex",
         "hp": 120,
         "type": "Colorless",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Rattata",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Rattata",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_059_EN_SM.webp",
         "attacks": [
@@ -183756,7 +184082,7 @@
         "name": "Team Rocket's Persian",
         "hp": 100,
         "type": "Colorless",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Meowth",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Meowth",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_061_EN_SM.webp",
         "attacks": [
@@ -184285,7 +184611,7 @@
         "name": "Team Rocket's Hypno",
         "hp": 90,
         "type": "Psychic",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Drowzee",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Drowzee",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_074_EN_SM.webp",
         "attacks": [
@@ -184333,7 +184659,7 @@
         "name": "Team Rocket's Tinkaton",
         "hp": 140,
         "type": "Metal",
-        "card_type": "Pokémon - Stage 2 - Evolves from Team Rocket’s Tinkatuff",
+        "card_type": "Pokémon - Stage 2 - Evolves from Team Rocket's Tinkatuff",
         "evolution_type": "Stage 2",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_075_EN_SM.webp",
         "attacks": [
@@ -184711,7 +185037,7 @@
         "name": "Team Rocket's Slowking ex",
         "hp": 130,
         "type": "Psychic",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Slowpoke",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Slowpoke",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_082_EN_SM.webp",
         "attacks": [
@@ -184763,7 +185089,7 @@
         "name": "Team Rocket's Weezing ex",
         "hp": 140,
         "type": "Darkness",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Koffing",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Koffing",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_083_EN_SM.webp",
         "attacks": [
@@ -184815,7 +185141,7 @@
         "name": "Team Rocket's Raticate ex",
         "hp": 120,
         "type": "Colorless",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Rattata",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Rattata",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_084_EN_SM.webp",
         "attacks": [
@@ -185162,7 +185488,7 @@
         "name": "Team Rocket's Slowking ex",
         "hp": 130,
         "type": "Psychic",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Slowpoke",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Slowpoke",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_091_EN_SM.webp",
         "attacks": [
@@ -185214,7 +185540,7 @@
         "name": "Team Rocket's Weezing ex",
         "hp": 140,
         "type": "Darkness",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Koffing",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Koffing",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_092_EN_SM.webp",
         "attacks": [
@@ -185266,7 +185592,7 @@
         "name": "Team Rocket's Raticate ex",
         "hp": 120,
         "type": "Colorless",
-        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket’s Rattata",
+        "card_type": "Pokémon - Stage 1 - Evolves from Team Rocket's Rattata",
         "evolution_type": "Stage 1",
         "image": "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/B4a/B4a_093_EN_SM.webp",
         "attacks": [
